@@ -11,7 +11,7 @@ public class App {
         b = scanner.nextDouble();
         System.out.println("Nhập cạnh c: ");
         c = scanner.nextDouble();
-        if (a + b < c || a + c < b || a + c < a) {
+        if (a + b < c || a + c < b || b + c < a) {
             System.out.println("Không phải ba cạnh của tam giác");
         } else {
             if (a * a == b * b + c * c || b * b == a * a + c * c || c * c == a * a + b * b) {
